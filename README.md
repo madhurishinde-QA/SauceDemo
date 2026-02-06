@@ -33,7 +33,7 @@ It is designed to automate functional test cases (both positive and negative) fo
 ---
 
 ## 🚀 Setup Instructions
-1.	Clone the repository:
+1.	Clone the repository - https://github.com/madhurishinde-QA/SauceDemo.git
 2. Import the project into IDE as a **Maven Project**
 
 ---

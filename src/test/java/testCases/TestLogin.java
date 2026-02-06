@@ -21,16 +21,12 @@ public class TestLogin extends TestBase
 
 		ProductPage pp = new ProductPage(driver);
 		Assert.assertEquals(pp.isProductTitlePresent(), true);	
-		
-		pp.clickAddToCartBtn();
-		pp.goToCartPage();
-		
+			
 		pp.clickHamburgerBtn();
 		pp.clickLogoutBtn();
 		
 	}
 	
-	/*
 	
 	@Test (priority=2)
 	public void verifyEmptyLogin()
@@ -54,5 +50,5 @@ public class TestLogin extends TestBase
 	
 	}
 	
-	*/
+	
 }
